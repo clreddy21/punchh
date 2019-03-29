@@ -1,0 +1,7 @@
+= select_tag "currencies", options_for_select(@currencies), :multiple => true, :size => 2, :id => 'currencies_select'
+
+%input.daterange{:type => "text", :'data-date-format' => 'yyyy-mm-dd'}
+
+%button.btn.btn-primary.primary-button{ type: 'submit' } Submit
+
+#chart
